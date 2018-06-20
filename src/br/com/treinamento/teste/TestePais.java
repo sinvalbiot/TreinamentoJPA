@@ -33,7 +33,7 @@ public class TestePais {
 		em.getTransaction().begin();
 		em.remove(p);		
 		em.getTransaction().commit();
-		em.close();
+		em.close(); 
 		
 	}
 
